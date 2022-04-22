@@ -2,21 +2,29 @@ import React from 'react'
 
 export default function Nav() {
   return (
-    <nav className="flex text-sm font-medium border-b border-gray-100">
+    <nav className="flex justify-end text-sm font-medium border-b border-gray-100">
         <a href="" className="p-4 -mb-px border-b border-current text-cyan-500">
-            Bronze
+            Kyle Schuetz
         </a>
 
         <a href="" className="p-4 -mb-px border-b border-transparent hover:text-cyan-500">
-            Silver
+            Blog
         </a>
 
         <a href="" className="p-4 -mb-px border-b border-transparent hover:text-cyan-500">
-            Gold
+            Tags
         </a>
 
         <a href="" className="p-4 -mb-px border-b border-transparent hover:text-cyan-500">
-            Platinum
+            About
+        </a>
+        
+        <a href="" className="p-4 -mb-px border-b border-transparent hover:text-cyan-500">
+            Projects
+        </a>
+
+        <a href="" className="p-4 -mb-px border-b border-transparent hover:text-cyan-500">
+            Contact
         </a>
     </nav>
   )
